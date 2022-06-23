@@ -1,0 +1,30 @@
+.interior {
+  display: flex;
+  width: 1662px;
+  height: 735.55px;
+}
+.info {
+  display: inline-block;
+  width: 606px;
+  height: 414px;
+  justify-content: right;
+  margin-left: 268px;
+  margin-top: 150px; /* узнать величину в фигме */
+}
+.modern {
+}
+.create {
+}
+.text {
+}
+.info_button {
+}
+.interior_img {
+  width: 717px;
+  height: 626px;
+  border: 2px solid #b0855b;
+  border-radius: 140px 0px;
+}
+
+.elipse {
+}
