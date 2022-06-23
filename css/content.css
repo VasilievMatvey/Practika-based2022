@@ -8,6 +8,7 @@
   width: 606px;
   height: 414px;
   justify-content: right;
+  margin-right: 44px;
   margin-left: 268px;
   margin-top: 150px; /* узнать величину в фигме */
 }
@@ -20,6 +21,7 @@
 .info_button {
 }
 .interior_img {
+  margin-top: 100px;
   width: 717px;
   height: 626px;
   border: 2px solid #b0855b;
