@@ -1,32 +1,191 @@
-.interior {
+.content__block1 {
   display: flex;
-  width: 1662px;
-  height: 735.55px;
-}
-.info {
-  display: inline-block;
-  width: 606px;
-  height: 414px;
-  justify-content: right;
-  margin-right: 44px;
-  margin-left: 268px;
-  margin-top: 150px; /* узнать величину в фигме */
-}
-.modern {
-}
-.create {
-}
-.text {
-}
-.info_button {
-}
-.interior_img {
-  margin-top: 100px;
-  width: 717px;
-  height: 626px;
-  border: 2px solid #b0855b;
-  border-radius: 140px 0px;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1662px;
+  margin-left: 7px;
+  margin-top: 107px;
 }
 
-.elipse {
+.content__block1__info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  max-width: 606px;
+  margin-left: 261px;
+}
+
+.content__block1__info__modern {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #646464;
+  margin-bottom: 12px;
+}
+.content__block1__info__create {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 78px;
+  color: #212121;
+  margin-bottom: 23px;
+}
+.content__block1__info__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #646464;
+  margin-bottom: 28px;
+}
+
+.content__block1__info__button {
+  width: 142px;
+  height: 42px;
+  background: #37806b;
+  border-radius: 20px 0px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 42px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.content__block1__info__button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.content__block1__images {
+  position: relative;
+  width: 751px;
+  height: 659px;
+}
+
+.content__block1__images__interior {
+  position: absolute;
+  width: 717px;
+  height: 626px;
+}
+
+.content__block1__images__border {
+  position: absolute;
+  width: 717px;
+  height: 626px;
+  left: 35px;
+  top: 33px;
+  z-index: -2;
+}
+/*
+.content__block1__elipse {
+  position: absolute;
+  top: 757px;
+  left: 7px;
+  width: 212px;
+  height: 153px;
+  z-index: 2;
+}
+
+.content__block1__elipse__table {
+  border-collapse: collapse;
+}
+
+.content__block1__elipse__table td {
+  width: 30px;
+  height: 30px;
+  background: radial-gradient(circle, #e60303, 45%);
+}
+*/
+
+/*block2*/
+
+.content__block2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1660px;
+  margin-left: 271px;
+  margin-right: 8.45px;
+  margin-top: 49.45px;
+}
+.content__block2__about {
+  display: flex;
+  justify-content: flex-end;
+  align-items: left;
+  flex-direction: column;
+  max-width: 276px;
+}
+.content__block2__about__what {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+
+  color: #646464;
+}
+.content__block2__about__service {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 78px;
+
+  color: #212121;
+}
+.content__block2__about__strelki {
+  width: 78px;
+  height: 30px;
+  margin-bottom: 51px;
+  margin-left: 1003px;
+  margin-right: 292px;
+}
+.content__block2__about__strelki__img {
+  width: 78px;
+  height: 30px;
+}
+.content__block2__interior {
+}
+.content__block2__interior__img {
+}
+.contetn__block2__interior__img__logo {
+}
+.content__block2__interior__words {
+}
+.content__block2__interior__topic {
+}
+.content__block2__interior__text {
+}
+.content__block2__architecture {
+}
+.content__block2__architecture__img {
+}
+.contetn__block2__architecture__img__logo {
+}
+.content__block2__architecture__words {
+}
+.content__block2__architecture__topic {
+}
+.content__block2__architecture__text {
+}
+.content__block2__planning {
+}
+.content__block2__planning__img {
+}
+.contetn__block2__planning__img__logo {
+}
+.content__block2__planning__words {
+}
+.content__block2__planning__topic {
+}
+.content__block2__planning__text {
+}
+.contetn__block2__elipse {
 }

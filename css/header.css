@@ -2,9 +2,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 1346px;
+  margin-left: 273px;
   margin-top: 34px;
-  margin-left: 218px;
-  margin-right: 356px;
+  margin-right: 301px;
 }
 .logo {
   width: 157px;
@@ -12,11 +13,12 @@
 }
 .menu {
   display: flex;
+  max-width: 650px;
+  margin-left: 384px;
+  margin-right: 64px;
 }
 .list {
   display: flex;
-  margin-left: 384px;
-  margin-right: 64px;
 }
 .list-menu {
   font-family: "Open Sans";
@@ -44,7 +46,6 @@
   border-radius: 15px 0px;
   width: 97px;
   height: 32px;
-  margin-top: 41;
 
   font-family: "Open Sans";
   font-style: normal;
