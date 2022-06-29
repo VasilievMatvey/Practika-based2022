@@ -301,8 +301,6 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-  /* identical to box height, or 150% */
-
   color: #646464;
 }
 .content__block3__info__mextreo {
@@ -311,8 +309,6 @@
   font-weight: 500;
   font-size: 48px;
   line-height: 57px;
-  /* or 119% */
-
   color: #212121;
 }
 .content__block3__info__text {
@@ -321,8 +317,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
-  /* or 167% */
-
   color: #646464;
 }
 .content__block3__info__button {
@@ -443,4 +437,216 @@
   left: 35px;
   top: 33px;
   z-index: -2;
+}
+
+/* block5 */
+
+.contetn__block5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+  margin-top: 177px;
+  background: #f8f8f8;
+  flex-direction: column;
+}
+.content__block5__text {
+  margin-top: 87px;
+}
+.content__block5__text__WE {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+
+  color: #212121;
+}
+.content__block5__works {
+  display: flex;
+  justify-content: start;
+  align-items: left;
+  max-width: 1343px;
+  margin-top: 87px;
+  margin-bottom: 105px;
+}
+.content__block5__works__project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 13px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 40px 0px;
+  width: 185px;
+  height: 182px;
+}
+.content__block5__works__project__text1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+
+  color: #212121;
+}
+.content__block5__works__project__text2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #646464;
+}
+.content__block5__works__palka1 {
+  width: 218px;
+  height: 96px;
+  margin-top: 96px;
+}
+.content__block5__works__client {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 13px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 40px 0px;
+  width: 185px;
+  height: 182px;
+  margin-top: 96px;
+}
+.content__block5__works__client__text1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+
+  color: #212121;
+}
+.content__block5__works__client__text2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #646464;
+}
+.content__block5__works__palka2 {
+  width: 218px;
+  height: 96px;
+  margin-top: 96px;
+}
+.content__block5__works__winners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 13px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 40px 0px;
+  width: 185px;
+  height: 182px;
+}
+.content__block5__works__winners__text1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+
+  color: #212121;
+}
+.content__block5__works__winners__text2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #646464;
+}
+.content__block5__works__palka3 {
+  width: 218px;
+  height: 96px;
+  margin-top: 96px;
+}
+.content__block5__works__recoment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 13px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 40px 0px;
+  width: 185px;
+  height: 182px;
+  margin-top: 96px;
+}
+.content__block5__works__recoment__text1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+
+  color: #212121;
+}
+.content__block5__works__recoment__text2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #646464;
+}
+
+/*block6 */
+.content__block6 {
+}
+.content__block6__text {
+}
+.content__block6__text__testimonials {
+}
+.content__block6__text__client {
+}
+.content__block6__buttons {
+}
+.content__block6__buttons__strelki {
+}
+.content__block6__commentLous {
+}
+.content__block6__commentLous__img {
+}
+.content__block6__commentLous__text-block {
+}
+.content__block6__commentLous__text-block__name {
+}
+.content__block6__commentLous__text-block__google {
+}
+.content__block6__commentLous__text-block__text {
+}
+.content__block6__commentRekha {
+}
+.content__block6__commentRekha__img {
+}
+.content__block6__commentRekha__text-block {
+}
+.content__block6__commentRekha__text-block__name {
+}
+.content__block6__commentRekha__text-block__google {
+}
+.content__block6__commentRekha__text-block__text {
 }
