@@ -7,20 +7,20 @@
   margin-top: 34px;
   margin-right: 301px;
 }
-.logo {
+.header__logo-logo {
   width: 157px;
   height: 47px;
 }
-.menu {
+.header__menu {
   display: flex;
   max-width: 650px;
   margin-left: 384px;
   margin-right: 64px;
 }
-.list {
+.header__menu-list {
   display: flex;
 }
-.list-menu {
+.header__menu-li {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
@@ -32,12 +32,12 @@
   color: #212121;
   text-align: center;
 }
-.list-menu a {
+.header__menu-li a {
   text-decoration: none;
   color: #212121;
   text-align: center;
 }
-.list-menu a:hover {
+.header__menu-li a:hover {
   color: #646464;
 }
 .header_button {

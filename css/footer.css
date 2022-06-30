@@ -1,0 +1,163 @@
+.footer {
+  background: #f8f8f8;
+  height: 380px;
+  padding-block-start: 93px;
+}
+.footer__content {
+  display: flex;
+  margin-left: 286px;
+  max-width: 1340px;
+}
+.epilog {
+  width: 350px;
+  margin-right: 37px;
+}
+.epilog__img {
+  width: 151px;
+  height: 47px;
+  margin-bottom: 15px;
+}
+.epilog__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #646464;
+}
+.links {
+  width: 182px;
+  height: 253px;
+  margin-right: 101px;
+}
+.links__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+
+  color: #212121;
+}
+.links__list {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+
+  color: #646464;
+}
+.company {
+  width: 144px;
+  height: 253px;
+  margin-right: 101px;
+}
+.company__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+
+  color: #212121;
+}
+.company__list {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+
+  color: #646464;
+}
+.contact {
+  width: 200px;
+  height: 213px;
+  margin-right: 53px;
+}
+.contact__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+
+  color: #212121;
+}
+.contact__list {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+
+  color: #646464;
+}
+.follow {
+  width: 172px;
+  height: 89px;
+}
+.follow__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+
+  color: #111111;
+  margin-bottom: 19px;
+}
+.icons {
+  width: 172px;
+  height: 37px;
+}
+.icons__facebook {
+  width: 37px;
+  height: 37px;
+}
+.icons__twitter {
+  width: 37px;
+  height: 37px;
+}
+.icons__instagram {
+  width: 37px;
+  height: 37px;
+}
+.icons__in {
+  width: 37px;
+  height: 37px;
+}
+.copyright {
+  position: relative;
+}
+.copyright__text {
+  position: absolute;
+  top: 80px;
+  left: 747px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #646464;
+}
+.copyright__text em {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #37806b;
+}
+.copyright__text:before {
+  content: " ";
+  position: absolute;
+  width: 1900px;
+  border: 1px solid #c4c4c4;
+  top: -15px;
+  left: -747px;
+}

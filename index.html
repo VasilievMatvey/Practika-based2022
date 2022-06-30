@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="/css/header.css" />
     <link rel="stylesheet" href="/css/content.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
     <link rel="stylesheet" href="/css/fonts/Open Sans/stylesheet.css" />
     <link rel="stylesheet" href="/css/fonts/Poppins/stylesheet.css" />
     <link rel="stylesheet" href="/css/fonts/Ralewray/stylesheet.css" />
@@ -22,117 +23,111 @@
   </head>
   <body>
     <header class="header">
-      <div class="logo1">
-        <a href="#" class="linklogo"
-          ><img src="/images/logo.svg" alt="logo" class="logo"
+      <div class="header__logo">
+        <a href="#" class="header__logo-link"
+          ><img src="/images/logo.svg" alt="logo" class="header__logo-logo"
         /></a>
       </div>
-      <div class="menu">
-        <ul class="list">
-          <li class="list-menu"><a href="#">HOME</a></li>
-          <li class="list-menu"><a href="#">PROJECT</a></li>
-          <li class="list-menu"><a href="#">SERVISES</a></li>
-          <li class="list-menu"><a href="#">ABOUT</a></li>
-          <li class="list-menu"><a href="#">BLOCK</a></li>
-          <li class="list-menu"><a href="#">SHOP</a></li>
-          <li class="list-menu"><a href="#">CONTACT</a></li>
+      <div class="header__menu">
+        <ul class="header__menu-list">
+          <li class="header__menu-li"><a href="#">HOME</a></li>
+          <li class="header__menu-li"><a href="#">PROJECT</a></li>
+          <li class="header__menu-li"><a href="#">SERVISES</a></li>
+          <li class="header__menu-li"><a href="#">ABOUT</a></li>
+          <li class="header__menu-li"><a href="#">BLOCK</a></li>
+          <li class="header__menu-li"><a href="#">SHOP</a></li>
+          <li class="header__menu-li"><a href="#">CONTACT</a></li>
         </ul>
       </div>
       <button class="header_button"><a href="#">Sing Up</a></button>
     </header>
     <div class="content">
-      <div class="content__block1">
-        <div class="content__block1__info">
-          <p class="content__block1__info__modern">MODERN INTERIOR</p>
-          <p class="content__block1__info__create">
-            Create Your Interior Design.
-          </p>
-          <p class="content__block1__info__text">
+      <div class="block1">
+        <div class="block1__info">
+          <p class="block1__info-modern">MODERN INTERIOR</p>
+          <p class="block1__info-create">Create Your Interior Design.</p>
+          <p class="block1__info-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation.
           </p>
-          <div class="content__block1__info__button">
+          <div class="block1__info-button">
             <a href="#">CONTACT</a>
           </div>
         </div>
 
-        <div class="content__block1__images">
+        <div class="block1__images">
           <img
             src="/images/block1-interior.png"
             alt="interior"
-            class="content__block1__images__interior"
+            class="block1__images-interior"
           />
           <img
             src="/images/block1_border.svg"
             alt="border"
-            class="content__block1__images__border"
+            class="block1__images-border"
           />
         </div>
       </div>
-      <div class="content__block2">
-        <div class="content__block2__about">
-          <div class="content__block2__about__text">
-            <p class="content__block2__about__text__what">WHAT WE DO</p>
-            <p class="content__block2__about__text__service">Our Service</p>
+      <div class="block2">
+        <div class="block2__about">
+          <div class="block2__about-text">
+            <p class="block2__about-what">WHAT WE DO</p>
+            <p class="block2__about-service">Our Service</p>
           </div>
-          <div class="content__block2__about__strelki">
+          <div class="block2__about-strelki">
             <img
               src="/images/block2-strelki.svg"
               alt="strelki"
-              class="content__block2__about__strelki__img"
+              class="block2__about-img"
             />
           </div>
         </div>
 
-        <div class="content__block2__blocks">
-          <div class="content__block2__blocks__interior">
-            <div class="content__block2__blocks__interior__img">
+        <div class="block2__blocks">
+          <div class="interior">
+            <div class="interior__img">
               <img
                 src="/images/block2-intlog.svg"
                 alt="intlogo"
-                class="contetn__block2__blocks__interior__img__logo"
+                class="interior__img-logo"
               />
             </div>
-            <div class="content__block2__blocks__interior__words">
-              <p class="content__block2__blocks__interior__topic">
-                Interior Design
-              </p>
-              <p class="content__block2__blocks__interior__text">
+            <div class="interior__words">
+              <p class="interior__topic">Interior Design</p>
+              <p class="interior__text">
                 Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod
                 tempor incididunt ut labore.
               </p>
             </div>
           </div>
-          <div class="content__block2__blocks__architecture">
-            <div class="content__block2__blocks__architecture__img">
+          <div class="architecture">
+            <div class="architecture__img">
               <img
                 src="/images/block2-arclog.svg"
                 alt="arclogo"
-                class="contetn__block2__blocks__architecture__img__logo"
+                class="architecture__img-logo"
               />
             </div>
-            <div class="content__block2__blocks__architecture__words">
-              <p class="content__block2__blocks__architecture__topic">
-                Architecture
-              </p>
-              <p class="content__block2__blocks__architecture__text">
+            <div class="architecture__words">
+              <p class="architecture__topic">Architecture</p>
+              <p class="architecture__text">
                 Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod
                 tempor incididunt ut labore.
               </p>
             </div>
           </div>
-          <div class="content__block2__blocks__planning">
-            <div class="content__block2__blocks__planning__img">
+          <div class="planning">
+            <div class="planning__img">
               <img
                 src="/images/block2-planlog.svg"
                 alt="planlogo"
-                class="contetn__block2__blocks__planning__img__logo"
+                class="planning__img-logo"
               />
             </div>
-            <div class="content__block2__blocks__planning__words">
-              <p class="content__block2__blocks__planning__topic">Planning</p>
-              <p class="content__block2__blocks__planning__text">
+            <div class="planning__words">
+              <p class="planning__topic">Planning</p>
+              <p class="planning__text">
                 Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod
                 tempor incididunt ut labore.
               </p>
@@ -140,29 +135,29 @@
           </div>
         </div>
       </div>
-      <div class="comtent__block3">
-        <div class="content__block3-wrapper">
-        <div class="content__block3__images">
-          <div class="content__block3_images-wrapper">
-            <img
-              src="/images/block3-sofa.png"
-              alt="sofa"
-              class="content__block3__images__sofa"
-            />
-            <img
-              src="/images//block3-border.svg"
-              alt="border"
-              class="content__block3__images__border"
-            />
+      <div class="block3">
+        <div class="block3-wrapper">
+          <div class="block3__images">
+            <div class="block3_images-wrapper">
+              <img
+                src="/images/block3-sofa.png"
+                alt="sofa"
+                class="block3__images-sofa"
+              />
+              <img
+                src="/images//block3-border.svg"
+                alt="border"
+                class="block3__images-border"
+              />
+            </div>
+          </div>
         </div>
-      </div>
-      </div>
-        <div class="content__block3__info">
-          <p class="content__block3__info__about">ABOUT US</p>
-          <p class="content__block3__info__mextreo">
+        <div class="block3__info">
+          <p class="block3__info-about">ABOUT US</p>
+          <p class="block3__info-mextreo">
             Interioris The Will of An Epoch Mextreo
           </p>
-          <p class="content__block3__info__text">
+          <p class="block3__info-text">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form injected humour,
             or randomised words which don't look even slightly believable.If you
@@ -171,163 +166,289 @@
             generators on the Internettend to repeat predefined chunks as
             necessary,making this the first true generator on the Internet.
           </p>
-          <div class="content__block3__info__button">
+          <div class="block3__info-button">
             <a href="#">LEARN MORE</a>
           </div>
         </div>
-        
       </div>
-      <div class="content__block4">
-          <div class="content__block4__info">
-            <div class="content__block4__info__image">
+      <div class="block4">
+        <div class="info">
+          <div class="info__image">
+            <img src="/images/block4-20.svg" alt="20" class="info__image-20" />
+          </div>
+          <p class="info__years">
+            Years Of Successful Working <br />The Market
+          </p>
+          <div class="info__button">
+            <a href="#">READ MORE</a>
+          </div>
+        </div>
+        <div class="block4__images">
+          <img
+            src="/images/block4-polki.png"
+            alt="polki"
+            class="block4__polki"
+          />
+          <img
+            src="/images/block4-border.svg"
+            alt="border"
+            class="block4__border"
+          />
+        </div>
+      </div>
+      <div class="block5">
+        <div class="block5-text">
+          <p class="block5-text__WE">
+            3000+ Completed <br />Work Which WE have Successfully Done
+          </p>
+        </div>
+        <div class="block5-works">
+          <div class="project">
+            <p class="project__text1">980</p>
+            <p class="project__text2">Project</p>
+          </div>
+          <div class="block5-works__palka1">
+            <img
+              src="/images/block5-palka1.svg"
+              alt="palka"
+              class="block5-works__palka"
+            />
+          </div>
+          <div class="client">
+            <p class="client__text1">520</p>
+            <p class="client__text2">Happy Client</p>
+          </div>
+          <div class="block5-works__palka2">
+            <img
+              src="/images/block5-palka2.svg"
+              alt="palka"
+              class="block5-works__palka"
+            />
+          </div>
+          <div class="winners">
+            <p class="winners__text1">330</p>
+            <p class="winners__text2">Winners</p>
+          </div>
+          <div class="block5-works__palka3">
+            <img
+              src="/images/block5-palka1.svg"
+              alt="palka"
+              class="block5-works__palka"
+            />
+          </div>
+          <div class="recoment">
+            <p class="recoment__text1">120</p>
+            <p class="recoment__text2">Recoment</p>
+          </div>
+        </div>
+      </div>
+      <div class="block6">
+        <div class="block6-head">
+          <div class="block6-head__text">
+            <p class="block6-head__testimonials">TESTIMONIALS</p>
+            <p class="block6-head__client">Client says about us</p>
+          </div>
+          <div class="block6-head__buttons">
+            <img
+              src="/images/block2-strelki.svg"
+              alt="strelki"
+              class="block6-head__strelki"
+            />
+          </div>
+        </div>
+        <div class="comments">
+          <div class="comments-block1">
+            <img
+              src="/images/”.svg"
+              alt="kovicki"
+              class="comments-block1__kovichki"
+            />
+            <div class="Lous">
+              <img src="/images/block6-man.jpg" alt="man" class="Lous__img" />
+              <div class="Lous__text-block">
+                <div class="Lous__bukvi">
+                  <p class="Lous__bukvi-name">
+                    <em>Louis Saville</em> /CEO at Google inc
+                  </p>
+
+                  <p class="Lous__bukvi-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="comments-block2">
+            <img
+              src="/images/”.svg"
+              alt="kovicki"
+              class="comments-block2__kovichki"
+            />
+            <div class="Rekha">
               <img
-                src="/images/block4-20.svg"
-                alt="20"
-                class="content__block4__info__image__20"
+                src="/images/block6-woman.jpg"
+                alt="woman"
+                class="Rekha__img"
+              />
+              <div class="Rekha__text-block">
+                <div class="Rekha__bukvi">
+                  <p class="Rekha__bukvi-name">
+                    <em>Rekha Varadwaz</em> /Manager at Nike inc
+                  </p>
+                  <p class="Rekha__bukvi-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="block7">
+        <div class="text">
+          <p class="text__news">LETEST NEWS</p>
+          <p class="text__blog">From Our Blog</p>
+        </div>
+        <div class="block7-content">
+          <div class="trends">
+            <div class="trends-images">
+              <img
+                src="/images/block7-stelaj.png"
+                alt="stelaj"
+                class="trends-images__stelaj"
+              />
+              <img
+                src="/images/block7-stelaj-border.svg"
+                alt="border"
+                class="trends-images__border"
               />
             </div>
-            <p class="content__block4__info__years">
-              Years Of Successful Working <br>The Market
-            </p>
-            <div class="content__block4__info__button">
-              <a href="#">READ MORE</a>
+            <div class="trends-text">
+              <p class="trends-text__2020">2020 Interior Design Trends</p>
+              <p class="trends-text__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="trends-text__button">
+                <a href="#">CONTINUE READING....</a>
+              </div>
             </div>
           </div>
-          <div class="content__block4__images">
-            <img src="/images/block4-polki.png" alt="polki" class="content__block4__images__polki">
-            <img src="/images/block4-border.svg" alt="border" class="content__block4__images__border">
+          <div class="product">
+            <div class="product-images">
+              <img
+                src="/images/block7-bedroom.png"
+                alt="bedroom"
+                class="product-images__bedroom"
+              />
+              <img
+                src="/images/block7-bedroom-border.svg"
+                alt="border"
+                class="product-images__border"
+              />
+            </div>
+            <div class="product-text">
+              <p class="product-text__arc">
+                28 Notable Product at ARC Interior Design
+              </p>
+              <p class="product-text__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="product-text__button">
+                <a href="#">CONTINUE READING....</a>
+              </div>
+            </div>
           </div>
+        </div>
       </div>
-      <div class="contetn__block5">
-        <div class="content__block5__text">
-        <p class="content__block5__text__WE">
-          3000+ Completed <br>Work Which WE have Successfully Done
+      <div class="block8">
+        <p class="block8__signup">DON’T FORGET TO SIGN UP</p>
+        <p class="block8__find">
+          Find out early about all upcoming promotions and new product releases
+          with our newsletter.
+        </p>
+        <div class="email">
+          <input
+            type="text"
+            class="email__pole"
+            placeholder="Enter your email address....."
+          />
+          <div class="button">
+            <a href="#" class="button__link">SUBSCRIBE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="epilog">
+          <img src="/images/logo.svg" alt="logo" class="epilog__img" />
+          <p class="epilog__text">
+            But i must explain to you all this mistaken idea of dencouncing
+            pleasure.
+          </p>
+        </div>
+        <div class="links">
+          <p class="links__text">Quick Links</p>
+          <ul>
+            <li class="links__list">About Our Company</li>
+            <li class="links__list">Services WE provide</li>
+            <li class="links__list">Career & Opportunity</li>
+            <li class="links__list">Privacy & policy</li>
+            <li class="links__list">Contact US</li>
+          </ul>
+        </div>
+        <div class="company">
+          <p class="company__text">Company</p>
+          <ul>
+            <li class="company__list">About Company</li>
+            <li class="company__list">Our Testimonials</li>
+            <li class="company__list">Latest News</li>
+            <li class="company__list">Our misson</li>
+            <li class="company__list">Get a free Quot</li>
+          </ul>
+        </div>
+        <div class="contact">
+          <p class="contact__text">Contact us</p>
+          <ul>
+            <li class="contact__list">Sagrada Familia, Herba</li>
+            <li class="contact__list">Street Front USA</li>
+            <li class="contact__list">brandoxide@gmail.com</li>
+            <li class="contact__list">002-568423591</li>
+          </ul>
+        </div>
+        <div class="follow">
+          <p class="follow__text">Follow Us</p>
+          <div class="icons">
+            <img
+              src="/images/facebook-logo.svg"
+              alt="facebook-logo"
+              class="icons__facebook"
+            />
+            <img
+              src="/images/twitter-logo.svg"
+              alt="twitter-logo"
+              class="icons__twitter"
+            />
+            <img
+              src="/images/instagram-logo.svg"
+              alt="instagram-logo"
+              class="icons__instagram"
+            />
+            <img src="/images/in-logo.svg" alt="in-logo" class="icons__in" />
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p class="copyright__text">
+          Copyright @ 2020 <em>Brandoxide</em>.all right reserved.
         </p>
       </div>
-        <div class="content__block5__works">
-          <div class="content__block5__works__project">
-            <p class="content__block5__works__project__text1">980</p>
-            <p class="content__block5__works__project__text2">Project</p>
-            
-          </div>
-          <div class="content__block5__works__palka1">
-            <img src="/images/block5-palka1.svg" alt="palka" class="content__block5__works__project__palka1">
-          </div>
-          <div class="content__block5__works__client">
-            <p class="content__block5__works__client__text1">520</p>
-            <p class="content__block5__works__client__text2">Happy Client</p>
-          </div>
-          <div class="content__block5__works__palka2">
-            <img src="/images/block5-palka2.svg" alt="palka" class="content__block5__works__project__palka2">
-          </div>
-          <div class="content__block5__works__winners">
-            <p class="content__block5__works__winners__text1">330</p>
-            <p class="content__block5__works__winners__text2">Winners</p>
-          </div>
-          <div class="content__block5__works__palka3">
-            <img src="/images/block5-palka1.svg" alt="palka" class="content__block5__works__project__palka1">
-          </div>
-          <div class="content__block5__works__recoment">
-            <p class="content__block5__works__recoment__text1">120</p>
-            <p class="content__block5__works__recoment__text2">Recoment</p>
-          </div>
-        </div>
-      </div>
-      <div class="content__block6">
-        <div class="content__block6__about">
-          <div class="content__block6__about__text">
-            <p class="content__block6__about__text__testimonials">TESTIMONIALS</p>
-            <p class="content__block6__about__text__client">Client says about us</p>
-          </div>
-         <div class="content__block6__about__buttons">
-            <img src="/images/block2-strelki.svg" alt="strelki" class="content__block6__buttons__strelki">
-          </div>
-      </div>
-      <div class="content__block6__comment">
-        <div class="content__block6__comment__block1">
-            <img src="/images/”.svg" alt="covicki" class="content__block6__comment__block1__covichki">
-          <div class="content__block6__comment__Lous">
-            <img src="/images/block6-man.jpg" alt="man" class="content__block6__comment__Lous__img">
-            <div class="content__block6__comment__Lous__text-block">
-              <div class="content__block6__comment__Lous__text-block__bukvi">
-                <p class="content__block6__comment__Lous__text-block__name"><em>Louis Saville</em> /CEO at Google inc</p>
-                
-                <p class="content__block6__comment__Lous__text-block__text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing 
-                  elit, sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua.
-                </p>
-            </div>
-            </div>
-          </div>
-        </div>
-        <div class="content__block6__comment__block2">
-          <img src="/images/”.svg" alt="covicki" class="content__block6__comment__block2__covichki">
-          <div class="content__block6__comment__Rekha">
-            <img src="/images/block6-woman.jpg" alt="woman" class="content__block6__comment__Rekha__img">
-            <div class="content__block6__comment__Rekha__text-block">
-              <div class="content__block6__comment__Rekha__text-block__bukvi">
-                <p class="content__block6__comment__Rekha__text-block__name"><em>Rekha Varadwaz</em> /Manager at Nike inc</p>
-                <p class="content__block6__comment__Rekha__text-block__text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing 
-                  elit, sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua.
-                </p>
-            </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-      <div class="content__block7">
-          <div class="content__block7__about">
-            <p class="content__block7__about__news">
-              LETEST NEWS
-            </p>
-            <p class="content__block7__about__blog">
-              From Our Blog
-            </p>
-        </div>
-        <div class="content__block7__cont">
-          <div class="content__block7__trends">
-              <div class="content__block7__trends__images">
-                <img src="/images/block7-stelaj.png" alt="stelaj" class="content__block7__trends__images__stelaj">
-                <img src="/images/block7-stelaj-border.svg" alt="border" class="content__block7__trends__images__border">
-              </div>
-              <div class="content__block7__trends__about">
-                <p class="content__block7__trends__about__2020">2020 Interior Design Trends</p>
-                <p class="content__block7__trends__about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                  incididunt ut labore et dolore magna aliqua.</p>
-                <div class="content__block7__trends__button">
-                    <a href="#">CONTINUE READING....</a>
-                </div>
-              </div>
-          </div>
-          <div class="content__block7__product">
-            <div class="content__block7__product__images">
-              <img src="/images/block7-bedroom.png" alt="bedroom" class="content__block7__product__images__bedroom">
-              <img src="/images/block7-bedroom-border.svg" alt="border" class="content__block7__product__images__border">
-            </div>
-            <div class="content__block7__product__about">
-              <p class="content__block7__product__about__arc">28 Notable Product at ARC Interior Design</p>
-              <p class="content__block7__product__about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                incididunt ut labore et dolore magna aliqua.</p>
-                <div class="content__block7__product__button">
-                  <a href="#">CONTINUE READING....</a>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="content__block8">
-        <p class="content__block8-signup">DON’T FORGET TO SIGN UP</p>
-        <p class="content__block8-find">Find out early about all upcoming promotions and new product releases with
-          our newsletter.</p>
-          <div class="content__block8-textbox">
-            <input type="text" class="content__block8-textbox-pole" placeholder="Enter your email address.....">
-          </div>
-      </div>
-    </div>
-    </div>
+    </footer>
   </body>
 </html>
