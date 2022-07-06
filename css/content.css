@@ -60,7 +60,15 @@
   color: #ffffff;
   text-decoration: none;
 }
-
+.block1__info-button:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
 .block1__images {
   position: relative;
   width: 751px;
@@ -336,6 +344,15 @@
   color: #ffffff;
   text-decoration: none;
 }
+.block3__info-button:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
 .block3-wrapper {
   width: 717px;
   margin-left: 235px;
@@ -414,6 +431,15 @@
 
   color: #ffffff;
   text-decoration: none;
+}
+.info__button:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 .block4__images {
   position: relative;
@@ -890,6 +916,15 @@
   color: #ffffff;
   text-decoration: none;
 }
+.trends-text__button:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
 .product {
   display: flex;
   max-width: 608px;
@@ -955,7 +990,15 @@
   color: #ffffff;
   text-decoration: none;
 }
-
+.product-text__button:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
 /*block8*/
 .block8 {
   display: flex;
@@ -1038,4 +1081,13 @@
   text-decoration: none;
 
   color: #ffffff;
+}
+.button:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
