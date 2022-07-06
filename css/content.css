@@ -622,6 +622,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  margin-left: 370px;
 }
 .block6-head__text {
   display: flex;
@@ -629,8 +630,6 @@
   align-items: center;
   flex-direction: column;
   min-width: 487px;
-  margin-right: 250px;
-  margin-left: 434px;
 }
 .block6-head__testimonials {
   font-family: "Poppins";
@@ -652,6 +651,7 @@
 }
 .block6-head__buttons {
   display: flex;
+  margin-left: 294px;
 }
 .block6-head__strelki {
   width: 78px;
