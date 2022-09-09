@@ -60,7 +60,15 @@
   color: #ffffff;
   text-decoration: none;
 }
-
+.block1__info-button:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
 .block1__images {
   position: relative;
   width: 751px;
@@ -336,6 +344,15 @@
   color: #ffffff;
   text-decoration: none;
 }
+.block3__info-button:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
 .block3-wrapper {
   width: 717px;
   margin-left: 235px;
@@ -414,6 +431,15 @@
 
   color: #ffffff;
   text-decoration: none;
+}
+.info__button:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 .block4__images {
   position: relative;
@@ -622,6 +648,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  margin-left: 370px;
 }
 .block6-head__text {
   display: flex;
@@ -629,10 +656,8 @@
   align-items: center;
   flex-direction: column;
   min-width: 487px;
-  margin-right: 250px;
-  margin-left: 434px;
 }
-.block6-head-__testimonials {
+.block6-head__testimonials {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -652,6 +677,7 @@
 }
 .block6-head__buttons {
   display: flex;
+  margin-left: 294px;
 }
 .block6-head__strelki {
   width: 78px;
@@ -890,6 +916,15 @@
   color: #ffffff;
   text-decoration: none;
 }
+.trends-text__button:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
 .product {
   display: flex;
   max-width: 608px;
@@ -955,7 +990,15 @@
   color: #ffffff;
   text-decoration: none;
 }
-
+.product-text__button:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
 /*block8*/
 .block8 {
   display: flex;
@@ -1038,4 +1081,13 @@
   text-decoration: none;
 
   color: #ffffff;
+}
+.button:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
